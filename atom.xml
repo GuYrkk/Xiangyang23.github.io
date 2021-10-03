@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-02T15:45:43.302Z</updated>
+  <updated>2021-10-03T07:10:22.615Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,15 +18,15 @@
   
   <entry>
     <title>第一个blog</title>
-    <link href="http://example.com/2021/10/02/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/"/>
-    <id>http://example.com/2021/10/02/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/</id>
-    <published>2021-10-02T07:31:42.000Z</published>
-    <updated>2021-10-02T15:45:43.302Z</updated>
+    <link href="http://example.com/2021/10/03/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/"/>
+    <id>http://example.com/2021/10/03/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/</id>
+    <published>2021-10-03T03:30:42.000Z</published>
+    <updated>2021-10-03T07:10:22.615Z</updated>
     
-    <content type="html"><![CDATA[<p>你好，这是我的第一篇blog🕺</p><span id="more"></span><h3 id="❤欢迎你的到来！"><a href="#❤欢迎你的到来！" class="headerlink" title="❤欢迎你的到来！"></a>❤<strong>欢迎你的到来！</strong></h3><p>这是我的个人blog空间，</p><p>因为我刚学会如何搭建它，很多功能我还在探索中。</p><p>而且我不是学编程的，对于如何编辑，美化网页（如css）知之甚少。</p><p>所以正如你看到的，它显得很简陋。</p><p>目前我只是简单应用了”NEXT”这个主题，</p><p>简单添加了以下两个功能：</p><ul><li>rss订阅<br>文章末尾有rss订阅按钮，复制添加到你的rss阅读器中就可以订阅我的blog。</li><li>评论功能<br>利用hexo搭建的blog本身是没有评论功能的，需要另行配置。目前已经依据网上教程配置完毕，<br>你可以在下方评论测试该功能。</li></ul><p>希望我以后可以学一些编程与设计，能把它做得更美，更完善。</p><p>如果你也想搭建这样的平台，你可以直接百度“hexo”看教程，b站上也有相关视频。挺简单的，估计一个小时就可以调试使用了。</p><p>真正需要你做的只是懂得Markdown语法来写文章以及记住几个简单的代码。（像我这种电脑小白都可以轻松入手）</p><p>如果你正在用这个平台，那请不吝赐教，分享你的经验。</p><h3 id="🔑为什么要搭建这个blog"><a href="#🔑为什么要搭建这个blog" class="headerlink" title="🔑为什么要搭建这个blog"></a>🔑<strong>为什么要搭建这个blog</strong></h3><ul><li><p>其一，人都有分享欲吧，想要从别人那里得到赞赏，认可，乃至批评建议。分享的美妙就像是一个人走在幽谷里，总想大呼一声，然后聆听悦耳的回声。</p></li><li><p>其二，诸如公众号，微博，知乎等分享平台都用了一遍，但感觉都很不合适，所以全部放弃了。而这个“hexo”搭建的Blog，界面清爽，访问便捷，而且与我做记录的markdown语法无缝衔接，当然还有一点格调（<del>b格</del>），体验值<strong>max!!！</strong>于是就选择了它。</p></li></ul><h3 id="👑-share-not-write"><a href="#👑-share-not-write" class="headerlink" title="👑**share, not write**"></a>👑**<font color="#0000FF">share, not write</font>**</h3><p>“share, not write”这是我用这个blog的宗旨，它源于我搭建这个blog的动机。这个blog就<strong>为分享而生</strong>，我不会把当做一个写作任务去定时更新，而是什么时候觉得自己有想要分享的，就会写下来，然后发布，如此而已。当然也会考虑有没有时间，譬如考试周铁定不会更新。</p><p>所以：</p><ul><li>它没有固定的主题，游戏，法律，书籍，volleyball…..都会有。但我会为每一条附上标签或者分类，以便你在标签页或分类页快速找到相关内容。</li><li>它没有固定的更新时间，你可以在偶然想起它时通过<a href="https://xiangyang23.github.io/">xiangyang23</a>（<a href="https://xiangyang23.github.io/%EF%BC%89%E6%9D%A5%E9%9A%8F%E4%BE%BF%E9%80%9B%E9%80%9B%E3%80%82%E5%BD%93%E7%84%B6%E4%BD%A0%E4%B9%9F%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87rss%E8%AE%A2%E9%98%85%E5%AE%83%E6%9B%B4%E6%96%B9%E4%BE%BF%E3%80%82%EF%BC%88%E6%B2%A1%E4%BA%BA%E4%BC%9A%E8%AE%A2%E9%98%85%E5%90%A7%F0%9F%98%82%E4%BC%B0%E8%AE%A1%E8%BF%99%E4%B8%AArss%E6%9C%8D%E5%8A%A1%E5%8F%AA%E8%83%BD%E8%87%AA%E7%94%A8%E4%BA%86%E3%80%82%EF%BC%89">https://xiangyang23.github.io/）来随便逛逛。当然你也可以通过rss订阅它更方便。（没人会订阅吧😂估计这个rss服务只能自用了。）</a></li></ul><p>以上是我通过第一篇blog想说明的，目前正处于十一假期，估计我多更新一些。</p><p><strong>最后，感谢您来到我的blog并花费一定时间来阅读这篇短文。希望您能持续关注我的blog</strong></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>你好，这是我的第一篇blog</strong></p><span id="more"></span><h3 id="❤欢迎你的到来！"><a href="#❤欢迎你的到来！" class="headerlink" title="❤欢迎你的到来！"></a>❤<strong>欢迎你的到来！</strong></h3><p>这是我的个人blog空间，</p><p>因为我刚学会如何搭建它，很多功能我还在探索中。</p><p>而且我不是学编程的，对于如何编辑，美化网页（如css）知之甚少。</p><p>所以正如你看到的，它显得很简陋。</p><p>目前我只是简单应用了”Chic”这个主题，希望我以后可以学一些编程与设计，能把它做得更美观，更完善。</p><p>如果你也想搭建这样的平台，你可以直接百度“hexo”看教程，b站上也有相关视频。挺简单的，估计一个小时就可以调试使用了。</p><p>真正需要你做的只是懂得Markdown语法来写文章以及记住几个简单的代码。（像我这种电脑小白都可以轻松入手）</p><p>如果你正在用这个平台，那请不吝赐教，分享你的经验。</p><h3 id="🔑Xiangyang23’blog导航"><a href="#🔑Xiangyang23’blog导航" class="headerlink" title="🔑Xiangyang23’blog导航"></a>🔑<strong>Xiangyang23’blog导航</strong></h3><img src="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373862.jpg" style="zoom:12%;" /><p>以下是你在我的blog中所有可以进行的操作：</p><ul><li><p>阅读<br>你可以通过这样三种方式阅读我的blog</p><ul><li>在主页点击我的头像</li><li>点击右上角的“Posts”</li><li>在主页点击图书按钮</li></ul></li><li><p>light/dark切换<br>得益于“Chic”这一主题本身，你可以通过点击右上方的最后一个按钮切换light/dark模式。</p></li><li><p>查找<br>当文章数目比较多时你可以：</p><ul><li>按标签搜索（右上角”tags”）</li><li>按分类搜索(右上角“Categories”)</li></ul><p>这个功能目前是用不到，因为现在只有这一篇文章。</p></li><li><p>rss订阅<br>我的blog主页有rss订阅按钮（wifi样式的图标），点击后复制rss地址添加到你的rss阅读器中就可以订阅我的blog。</p></li></ul><p><strong>注意</strong>：由于它是静态blog，而且“Chic”主题比较简约，因此<font color="#DC143C">没有评论功能。</font>以后换主题或许会添加评论功能，但概率很小，毕竟“Chic”这个主题颜值Max!</p><h3 id="👑share-not-write"><a href="#👑share-not-write" class="headerlink" title="👑share, not write"></a><strong>👑<font color="#0000FF">share, not write</font></strong></h3><img src="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373308.jpg" style="zoom:12%;" /><p>“share, not write”这是我用这个blog的宗旨，它源于我搭建这个blog的动机。这个blog就<strong>为分享而生</strong>，我不会把当做一个写作任务去定时更新，而是什么时候觉得自己有想要分享的，就会写下来，然后发布，如此而已。当然也会考虑有没有时间，譬如考试周铁定不会更新。</p><p>所以：</p><ul><li>它没有固定的主题，游戏，法律，书籍，volleyball…..都会有。但我会为每一条附上标签或者分类，以便你在标签页或分类页快速找到相关内容。</li><li>它没有固定的更新时间，你可以在偶然想起它时通过”<a href="https://xiangyang23.github.io/&quot;%E6%9D%A5%E9%9A%8F%E4%BE%BF%E9%80%9B%E9%80%9B%E3%80%82%E5%BD%93%E7%84%B6%E4%BD%A0%E4%B9%9F%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87rss%E8%AE%A2%E9%98%85%E5%AE%83%E6%9B%B4%E6%96%B9%E4%BE%BF%E3%80%82%EF%BC%88%E6%B2%A1%E4%BA%BA%E4%BC%9A%E8%AE%A2%E9%98%85%E5%90%A7%F0%9F%98%82%E4%BC%B0%E8%AE%A1%E8%BF%99%E4%B8%AArss%E6%9C%8D%E5%8A%A1%E5%8F%AA%E8%83%BD%E8%87%AA%E7%94%A8%E4%BA%86%E3%80%82%EF%BC%89">https://xiangyang23.github.io/&quot;来随便逛逛。当然你也可以通过rss订阅它更方便。（没人会订阅吧😂估计这个rss服务只能自用了。）</a></li></ul><p>以上就是我的第一篇blog想传达的，当下正处于十一假期，再次更新的几率会大一些。</p><p><strong>最后，感谢您来到我的blog并花费一定时间来阅读这篇短文。希望您能持续关注我的blog🧡</strong></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;你好，这是我的第一篇blog🕺&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;你好，这是我的第一篇blog&lt;/strong&gt;&lt;/p&gt;</summary>
     
     
     
