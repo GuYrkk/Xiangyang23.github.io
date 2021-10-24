@@ -1,217 +1,210 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="zh-CN" color-mode=light>
 <head>
-    <meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <meta name="author" content="Xiangyang">
-
-
-
-
-
-<title>第一个blog | xiangyang23</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>第一个blog - xiangyang23</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="你好，这是我的第一篇blog
 
 
+❤欢迎你的到来！这是...">
+  <meta name="author" content="Xiangyang">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
 
-    <link rel="icon" href="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/我的Blog图片.png">
+  
+<link rel="stylesheet" href="/css/style.css">
 
 
-
-
-    <!-- stylesheets list from _config.yml -->
+  
     
-    <link rel="stylesheet" href="/css/style.css">
-    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
 
+  
 
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
-    <!-- scripts list from _config.yml -->
-    
-    <script src="/js/script.js"></script>
-    
-    <script src="/js/tocbot.min.js"></script>
-    
+  
 
-
-
+  
     
-    
+      
         
-    
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
 
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: false,
+        alipay: 'https://pic.izhaoo.com/alipay.jpg',
+        wechat: 'https://pic.izhaoo.com/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '在宁静永恒的澄明中凝望',
+          typing: false,
+          api: '',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: false,
+        path: ''
+      }
+    }
+  </script>
+
+  
+
+  
 
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="xiangyang23" type="application/atom+xml">
 </head>
 
-<body>
-    <script>
-        // this function is used to check current theme before page loaded.
-        (() => {
-            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
-            const isDark = currentTheme === 'dark';
-            const pagebody = document.getElementsByTagName('body')[0]
-            if (isDark) {
-                pagebody.classList.add('dark-theme');
-                // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
-            } else {
-                pagebody.classList.remove('dark-theme');
-                // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Light"
-            }
-        })();
-    </script>
-
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo"><a href="/">Xiangyang23&#39;s Blog</a></div>
-            <div class="menu navbar-right">
-                
-                    <a class="menu-item" href="/archives">Posts</a>
-                
-                    <a class="menu-item" href="/categories">Categories</a>
-                
-                    <a class="menu-item" href="/tags">Tags</a>
-                
-                <input id="switch_default" type="checkbox" class="switch_default">
-                <label for="switch_default" class="toggleBtn"></label>
-            </div>
-        </div>
-    </nav>
-
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
     
-    <nav class="navbar-mobile" id="nav-mobile">
-        <div class="container">
-            <div class="navbar-header">
-                <div>
-                    <a href="/">Xiangyang23&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
-                </div>
-                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
-            </div>
-            <div class="menu" id="mobile-menu">
-                
-                    <a class="menu-item" href="/archives">Posts</a>
-                
-                    <a class="menu-item" href="/categories">Categories</a>
-                
-                    <a class="menu-item" href="/tags">Tags</a>
-                
-            </div>
-        </div>
-    </nav>
 
-</header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
-        var mobileMenu = document.getElementById("mobile-menu");
-        if(toggleMenu.classList.contains("active")){
-           toggleMenu.classList.remove("active")
-            mobileMenu.classList.remove("active")
-        }else{
-            toggleMenu.classList.add("active")
-            mobileMenu.classList.add("active")
-        }
-    }
-</script>
-            <div class="main">
-                <div class="container">
-    
-    
-        <div class="post-toc">
-    <div class="tocbot-list">
+
+  <nav class="navbar">
+    <div class="left">
+      
+        <i class="iconfont iconhome j-navbar-back-home"></i>
+      
+      
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
+      
+        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
+      
+      
     </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
+    <div class="center">第一个blog</div>
+    <div class="right">
+      <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
-</div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
     
-
+      <div id="qrcode-navbar"></div>
     
-    <article class="post-wrap">
-        <header class="post-header">
-            <h1 class="post-title">第一个blog</h1>
-            
-                <div class="post-meta">
-                    
-                        Author: <a itemprop="author" rel="author" href="/">Xiangyang</a>
-                    
+  </nav>
 
-                    
-                        <span class="post-time">
-                        Date: <a href="#">十月 3, 2021&nbsp;&nbsp;11:30:42</a>
-                        </span>
-                    
-                    
-                </div>
-            
-        </header>
+  
+  
 
-        <div class="post-content">
-            <p><strong>你好，这是我的第一篇blog</strong></p>
-<span id="more"></span>
-
-<h3 id="❤欢迎你的到来！"><a href="#❤欢迎你的到来！" class="headerlink" title="❤欢迎你的到来！"></a>❤<strong>欢迎你的到来！</strong></h3><p>这是我的个人blog空间，</p>
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li></ul>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title">第一个blog</h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十月 03, 2021</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1170</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        <h3 id="❤欢迎你的到来！"><a href="#❤欢迎你的到来！" class="headerlink" title="❤欢迎你的到来！"></a>❤<strong>欢迎你的到来！</strong></h3><p>这是我的个人blog空间，</p>
 <p>因为我刚学会如何搭建它，很多功能我还在探索中。</p>
 <p>而且我不是学编程的，对于如何编辑，美化网页（如css）知之甚少。</p>
 <p>所以正如你看到的，它显得很简陋。</p>
@@ -219,7 +212,7 @@
 <p>如果你也想搭建这样的平台，你可以直接百度“hexo”看教程，b站上也有相关视频。挺简单的，估计一个小时就可以调试使用了。</p>
 <p>真正需要你做的只是懂得Markdown语法来写文章以及记住几个简单的代码。（像我这种电脑小白都可以轻松入手）</p>
 <p>如果你正在用这个平台，那请不吝赐教，分享你的经验。</p>
-<h3 id="🔑Xiangyang23’blog导航"><a href="#🔑Xiangyang23’blog导航" class="headerlink" title="🔑Xiangyang23’blog导航"></a>🔑<strong>Xiangyang23’blog导航</strong></h3><img src="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373862.jpg" style="zoom:12%;" />
+<h3 id="🔑Xiangyang23’blog导航"><a href="#🔑Xiangyang23’blog导航" class="headerlink" title="🔑Xiangyang23’blog导航"></a>🔑<strong>Xiangyang23’blog导航</strong></h3><img   class="lazyload" data-original="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373862.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  style="zoom:12%;" />
 
 <p>以下是你在我的blog中所有可以进行的操作：</p>
 <ul>
@@ -243,7 +236,7 @@
 </li>
 </ul>
 <p><strong>注意</strong>：由于它是静态blog，而且“Chic”主题比较简约，因此<font color="#DC143C">没有评论功能。</font>以后换主题或许会添加评论功能，但概率很小，毕竟“Chic”这个主题颜值Max!</p>
-<h3 id="👑share-not-write"><a href="#👑share-not-write" class="headerlink" title="👑share, not write"></a><strong>👑<font color="#0000FF">share, not write</font></strong></h3><img src="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373308.jpg" style="zoom:12%;" />
+<h3 id="👑share-not-write"><a href="#👑share-not-write" class="headerlink" title="👑share, not write"></a><strong>👑<font color="#0000FF">share, not write</font></strong></h3><img   class="lazyload" data-original="https://wodeiltu-1307652061.cos.ap-nanjing.myqcloud.com/图片/pexels-monstera-6373308.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  style="zoom:12%;" />
 
 <p>“share, not write”这是我用这个blog的宗旨，它源于我搭建这个blog的动机。这个blog就<strong>为分享而生</strong>，我不会把当做一个写作任务去定时更新，而是什么时候觉得自己有想要分享的，就会写下来，然后发布，如此而已。当然也会考虑有没有时间，譬如考试周几乎不可能会更新。</p>
 <p>所以：</p>
@@ -253,60 +246,128 @@
 </ul>
 <p>以上就是我的第一篇blog想传达的，当下正处于十一假期，再次更新的几率会大一些。</p>
 <p><strong>最后，感谢您来到我的blog并花费一定时间来阅读这篇短文。希望您能持续关注我的blog🧡</strong></p>
+      </section>
+      <section class="extra">
+        
+          <ul class="copyright">
+  
+    <li><strong>本文作者：</strong>Xiangyang</li>
+    <li><strong>本文链接：</strong><a href="https://xiangyang23.github.io/2021/10/03/%E7%AC%AC%E4%B8%80%E4%B8%AAblog/index.html" title="https:&#x2F;&#x2F;xiangyang23.github.io&#x2F;2021&#x2F;10&#x2F;03&#x2F;%E7%AC%AC%E4%B8%80%E4%B8%AAblog&#x2F;index.html">https:&#x2F;&#x2F;xiangyang23.github.io&#x2F;2021&#x2F;10&#x2F;03&#x2F;%E7%AC%AC%E4%B8%80%E4%B8%AAblog&#x2F;index.html</a></li>
+    <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
+  
+</ul>
+        
+        
+        
+        
+  <nav class="nav">
+    <a href="/2021/10/16/%E6%82%B2%E5%89%A7%EF%BC%8C%E6%AD%BB%E4%BA%A1%EF%BC%8C%E8%8B%B1%E9%9B%84/"><i class="iconfont iconleft"></i>悲剧，死亡与英雄</a>
+    <a></a>
+  </nav>
 
-        </div>
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%9D%A4%E6%AC%A2%E8%BF%8E%E4%BD%A0%E7%9A%84%E5%88%B0%E6%9D%A5%EF%BC%81"><span class="toc-text">❤欢迎你的到来！</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%94%91Xiangyang23%E2%80%99blog%E5%AF%BC%E8%88%AA"><span class="toc-text">🔑Xiangyang23’blog导航</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%91%91share-not-write"><span class="toc-text">👑share, not write</span></a></li></ol>
+  </aside>
 
         
-            <section class="post-copyright">
-                
-                    <p class="copyright-item">
-                        <span>Author:</span>
-                        <span>Xiangyang</span>
-                    </p>
-                
-                
-                
-                
-                     <p class="copyright-item">
-                         <span>Slogan:</span>
-                         <span>在宁静永恒的澄明中凝望</span>
-                     </p>
-                
-
-            </section>
-        
-        <section class="post-tags">
-            <div>
-                <span>Tag(s):</span>
-                <span class="tag">
-                    
-                </span>
-            </div>
-            <div>
-                <a href="javascript:window.history.back();">back</a>
-                <span>· </span>
-                <a href="/">home</a>
-            </div>
-        </section>
-        <section class="post-nav">
-            
-                <a class="prev" rel="prev" href="/2021/10/16/%E6%82%B2%E5%89%A7%EF%BC%8C%E6%AD%BB%E4%BA%A1%EF%BC%8C%E8%8B%B1%E9%9B%84/">悲剧，死亡与英雄</a>
-            
-            
-        </section>
-
-
-    </article>
-</div>
-
-            </div>
-            <footer id="footer" class="footer">
-    <div class="copyright">
-        <span>© Xiangyang | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+      </div>
     </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"></div>
+  
 </footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
 
-    </div>
+  
+  
 </body>
+
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
